@@ -55,6 +55,7 @@ const Movies = () => {
               vote_average={c.vote_average}
             />
           ))}
+        
       </div>
       {numOfPages > 1 && (
         <CustomPagination setPage={setPage} numOfPages={numOfPages} />
